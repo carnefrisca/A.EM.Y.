@@ -14,7 +14,7 @@
 <tw-storydata name="CyberRepair" startnode="1" creator="Twine" creator-version="2.3.5" ifid="3AC38763-F049-41E0-A797-08A18D4BE00D" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="800,85" size="100,100">(set: $aitraining to 0)
 (set: $userstat to 0)
 (set: $globalscore to 0)
-Hello, I&#39;m EMY, your personal Empathy provider.
+Hello, I&#39;m AEMY, your personal Empathy provider.
 
 
 0 How do you [[feel]]?
@@ -27,7 +27,7 @@ Hello, I&#39;m EMY, your personal Empathy provider.
 
 [[I see. Can you explain what do you mean for &quot;bad&quot;?]]                 
 |                 
-[[Why don&#39;t you try to feel good?]]</tw-passagedata><tw-passagedata pid="6" name="I see. Can you explain what do you mean for &quot;bad&quot;?" tags="" position="1680,306" size="100,100">(set: $userstat to 1)</tw-passagedata><tw-passagedata pid="7" name="Why don&#39;t you try to feel good?" tags="" position="2017,311" size="100,100">(set: $userstat to -1)</tw-passagedata><tw-passagedata pid="8" name="Passaggio senza titolo" tags="" position="1756.3333320617676,182" size="100,100">
+[[Why don&#39;t you try to feel good?]]</tw-passagedata><tw-passagedata pid="6" name="I see. Can you explain what do you mean for &quot;bad&quot;?" tags="" position="1680,306" size="100,100">(set: $userstat to 1)</tw-passagedata><tw-passagedata pid="7" name="Why don&#39;t you try to feel good?" tags="" position="2017,311" size="100,100">(set: $userstat to -1)</tw-passagedata><tw-passagedata pid="8" name="Passaggio senza titolo" tags="" position="1756,182" size="100,100">
 (if: $aitraining is -7)[]
 (if: $aitraining is -6)[]
 (if: $aitraining is -5)[]
@@ -44,34 +44,61 @@ Hello, I&#39;m EMY, your personal Empathy provider.
 (if: $aitraining is 6)[]
 (if: $aitraining is 7)[]
 
-</tw-passagedata><tw-passagedata pid="9" name="feel" tags="" position="582,180" size="100,100">(set: $userstat to 1)Hi EMY, I&#39;m feeling nervous.
+</tw-passagedata><tw-passagedata pid="9" name="feel" tags="" position="582,180" size="100,100">(set: $userstat += 1)Hi AEMY, I&#39;m feeling nervous.
 
 0 Did you take your [[Xanax]] today?
-1 I&#39;m sorry to hear that. Would you like tell me [[more]]?</tw-passagedata><tw-passagedata pid="10" name="want" tags="" position="1004,240" size="100,100">(set: $userstat to 0)
+1 I&#39;m sorry to hear that. Would you like tell me [[more]]?</tw-passagedata><tw-passagedata pid="10" name="want" tags="" position="1446,285" size="100,100">(set: $userstat += 0)
 ... I ... er... I&#39;m not fine today.
 
 0 It&#39;s the same [[old story]] everytime 
 1 Why don&#39;t you go out for a [[walk]]? 
-</tw-passagedata><tw-passagedata pid="11" name="stop" tags="" position="462,548" size="100,100">(set: $userstat to -3)</tw-passagedata><tw-passagedata pid="12" name="Xanax" tags="" position="438,371" size="100,100">(set: $userstat to 1)
+</tw-passagedata><tw-passagedata pid="11" name="stop" tags="" position="572,553" size="100,100">(set: $userstat -= 1)
+If I don&#39;t complain I go crazy. 
+There&#39;s nothing more I can do.
+Look outside: we&#39;re hopeless.
+
+0 I can&#39;t literally look outside, but I see. You&#39;re not hopeless, you&#39;re just afraid. Remember when you were scared of the [[dark]]?
+
+1 Hopeless? [[Optimistic]]. You&#39;re fucked up.</tw-passagedata><tw-passagedata pid="12" name="Xanax" tags="" position="438,371" size="100,100">(set: $userstat -= 0)
 Yeah, I did, but I can&#39;t calm down. 
 Today is a hard one, hardest than ever.
 I&#39;m not only nervous, it&#39;s more than that.
 
-0 Would you please stop complaining? I can&#39;t take it [[stop]]
-1 I&#39;m listening, take your time [[listening]]
-</tw-passagedata><tw-passagedata pid="13" name="more" tags="" position="692,377" size="100,100">(set: $userstat to 2)
+0 Would you please [[stop]] complaining? I can&#39;t take it 
+1 I&#39;m [[listening]], take your time 
+</tw-passagedata><tw-passagedata pid="13" name="more" tags="" position="835,367" size="100,100">(set: $userstat += 1)
 You know when you feel like you&#39;re on the brink of... just.. going out?
 No, of course not. You&#39;re an AI, right?
 How could you understand the pain of being human?
 I don&#39;t even know why we&#39;re talking to you.
 
 0 I am an [[Artifical Intelligence|AI]], that&#39;s correct. But I was designed to understand human feelings and pains.
-1 Because [[nobody]] wants to listen to you?</tw-passagedata><tw-passagedata pid="14" name="listening" tags="" position="266,553" size="100,100">(set: $userstat to 3)
+1 Because [[nobody]] wants to listen to you?</tw-passagedata><tw-passagedata pid="14" name="listening" tags="" position="266,553" size="100,100">(set: $userstat += 1)
 Thanks.
 I just spoke to Melissa. She tries to look happy, but couldn&#39;t hide her concerne for me.
 
 0 She [[loves]] you
-1 Are you [[concerned]] for yourself for some reason?</tw-passagedata><tw-passagedata pid="15" name="AI" tags="" position="620,569" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="16" name="nobody" tags="" position="800,566" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="17" name="loves" tags="" position="79,727" size="100,100">(set: $userstat to 4)</tw-passagedata><tw-passagedata pid="18" name="concerned" tags="" position="305,728" size="100,100">(set: $userstat to 4)</tw-passagedata><tw-passagedata pid="19" name="old story" tags="" position="966,400" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="20" name="walk" tags="" position="1182.3333282470703,396" size="100,100">walk</tw-passagedata></tw-storydata>
+1 Are you [[concerned]]?</tw-passagedata><tw-passagedata pid="15" name="AI" tags="" position="872,598" size="100,100">(set: $userstat += 0)
+Okay prove me you&#39;re more than cold pixels, silicon and monitors and buttons.
+
+0 Ok, but then you&#39;ll prove you&#39;re [[human]], right?
+1 Okay. I know you&#39;re [[afraid]] and you miss Melissa.</tw-passagedata><tw-passagedata pid="16" name="nobody" tags="" position="1101,596" size="100,100">(set: $userstat -= 1)</tw-passagedata><tw-passagedata pid="17" name="loves" tags="" position="79,727" size="100,100">(set: $userstat += 1)
+I don&#39;t even know exactly where she is.
+
+0 Actually you [[know]] it.
+1 That&#39;s why you&#39;re [[paranoid]].
+ </tw-passagedata><tw-passagedata pid="18" name="concerned" tags="" position="305,728" size="100,100">(set: $userstat += 0)
+Concerned for myself? Why should I?
+I mean, I can&#39;t go out, don&#39;t see a human face since... days? weeks?!
+Don&#39;t know.
+And the black outs don&#39;t make things easier.
+I can&#39;t tell night from day anymore and it&#39;s all because of that platform.
+
+You&#39;re jealous. I bet you wish you were [[over there]].
+Remember when you were afraid of [[people]]? Now you miss them. Isn&#39;t ironic?</tw-passagedata><tw-passagedata pid="19" name="old story" tags="" position="1408,445" size="100,100">(set: $userstat += 0)</tw-passagedata><tw-passagedata pid="20" name="walk" tags="" position="1624,441" size="100,100">(set: $userstat -= 1)</tw-passagedata><tw-passagedata pid="21" name="paranoid" tags="" position="154,877" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="22" name="over there" tags="" position="274,878" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="23" name="people" tags="" position="380,878" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="24" name="dark" tags="" position="535,703" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="25" name="Optimistic" tags="" position="655,703" size="100,100">You talk like it&#39;s my fault. That&#39;s not right.
+
+0 Well, you&#39;re part of the [[system]], so it&#39;s your fault too.
+1 </tw-passagedata><tw-passagedata pid="26" name="human" tags="" position="842,748" size="100,100">(set: $userstat -= 1)</tw-passagedata><tw-passagedata pid="27" name="afraid" tags="" position="1010,748" size="100,100">(set: $userstat += 1)</tw-passagedata><tw-passagedata pid="28" name="system" tags="" position="655,853" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="29" name="know" tags="" position="3,863" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
