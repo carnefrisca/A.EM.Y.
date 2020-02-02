@@ -1,7 +1,313 @@
 fileFormatVersion: 2
 guid: c1d6665993abec24597e64b33a01e663
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5539891322913004694
+    second: aemy_0
+  - first:
+      213: -7164229490801883398
+    second: aemy_1
+  - first:
+      213: 2447900443686236971
+    second: aemy_2
+  - first:
+      213: -3614277958242736027
+    second: aemy_3
+  - first:
+      213: -3420423659892885672
+    second: aemy_4
+  - first:
+      213: -6119139769919707388
+    second: aemy_5
+  - first:
+      213: 3857102757858008899
+    second: aemy_6
+  - first:
+      213: -4886148865051637863
+    second: aemy_7
+  - first:
+      213: 1365265648695492742
+    second: aemy_8
+  - first:
+      213: 8447283961805951557
+    second: aemy_9
+  - first:
+      213: -906950755610931136
+    second: aemy_10
+  - first:
+      213: 3193235406304582816
+    second: aemy_11
+  - first:
+      213: -6717747787413042608
+    second: aemy_12
+  - first:
+      213: 4533230647466795833
+    second: aemy_13
+  - first:
+      213: 1571188977160854758
+    second: aemy_14
+  - first:
+      213: -439065080448384632
+    second: aemy_15
+  - first:
+      213: -3975790478210935068
+    second: aemy_16
+  - first:
+      213: 7784618375140545980
+    second: aemy_17
+  - first:
+      213: -2249478019480244138
+    second: aemy_18
+  - first:
+      213: 3396942088603181786
+    second: aemy_19
+  - first:
+      213: 6129291236045232126
+    second: aemy_20
+  - first:
+      213: -3489727020674967262
+    second: aemy_21
+  - first:
+      213: -3262599049360999588
+    second: aemy_22
+  - first:
+      213: -8739469588249017465
+    second: aemy_23
+  - first:
+      213: -3907067876322876904
+    second: aemy_24
+  - first:
+      213: -1285258870378099078
+    second: aemy_25
+  - first:
+      213: 892067069891827677
+    second: aemy_26
+  - first:
+      213: -632603943380771514
+    second: aemy_27
+  - first:
+      213: -5418538110123683775
+    second: aemy_28
+  - first:
+      213: -3054375711639124770
+    second: aemy_29
+  - first:
+      213: 1945848243696532430
+    second: aemy_30
+  - first:
+      213: -5132309653082879798
+    second: aemy_31
+  - first:
+      213: 8813135431616455914
+    second: aemy_32
+  - first:
+      213: -4454082011810222926
+    second: aemy_33
+  - first:
+      213: -2702745135710403744
+    second: aemy_34
+  - first:
+      213: 4968147821294391677
+    second: aemy_35
+  - first:
+      213: 351340049945849556
+    second: aemy_36
+  - first:
+      213: 1374906539109279142
+    second: aemy_37
+  - first:
+      213: 8307456148569523788
+    second: aemy_38
+  - first:
+      213: -3186068660704864676
+    second: aemy_39
+  - first:
+      213: 7683324411006062479
+    second: aemy_40
+  - first:
+      213: -3476778832874907813
+    second: aemy_41
+  - first:
+      213: -7610382111187558852
+    second: aemy_42
+  - first:
+      213: -7515675535258484309
+    second: aemy_43
+  - first:
+      213: 4536277556512909473
+    second: aemy_44
+  - first:
+      213: 7956912351980901211
+    second: aemy_45
+  - first:
+      213: 8136271784290137262
+    second: aemy_46
+  - first:
+      213: -589454936218166293
+    second: aemy_47
+  - first:
+      213: 5224805799344621065
+    second: aemy_48
+  - first:
+      213: 997625584333696890
+    second: aemy_49
+  - first:
+      213: -6109120534202201488
+    second: aemy_50
+  - first:
+      213: -2275636875994483086
+    second: aemy_51
+  - first:
+      213: -5679283118148407460
+    second: aemy_52
+  - first:
+      213: -3271340034113891094
+    second: aemy_53
+  - first:
+      213: -1065595840675745498
+    second: aemy_54
+  - first:
+      213: 2645055790842730663
+    second: aemy_55
+  - first:
+      213: -7349664270694585316
+    second: aemy_56
+  - first:
+      213: 8679679620602323754
+    second: aemy_57
+  - first:
+      213: -3716675257767213091
+    second: aemy_58
+  - first:
+      213: -543659249478646734
+    second: aemy_59
+  - first:
+      213: 1192124717742609404
+    second: aemy_60
+  - first:
+      213: -447972021597050799
+    second: aemy_61
+  - first:
+      213: -6532616769673563447
+    second: aemy_62
+  - first:
+      213: 4514328521319026021
+    second: aemy_63
+  - first:
+      213: -1968201293247095203
+    second: aemy_64
+  - first:
+      213: -7659968182816868223
+    second: aemy_65
+  - first:
+      213: 1159165399932373716
+    second: aemy_66
+  - first:
+      213: -7978012771888286314
+    second: aemy_67
+  - first:
+      213: -248768370077679514
+    second: aemy_68
+  - first:
+      213: 3088587761236893942
+    second: aemy_69
+  - first:
+      213: 7964469223534117185
+    second: aemy_70
+  - first:
+      213: 7167040438153926504
+    second: aemy_71
+  - first:
+      213: 5984709792621302490
+    second: aemy_72
+  - first:
+      213: 4827369263228511306
+    second: aemy_73
+  - first:
+      213: -7731818213643083785
+    second: aemy_74
+  - first:
+      213: 649222577051721159
+    second: aemy_75
+  - first:
+      213: 8416437082652222650
+    second: aemy_76
+  - first:
+      213: -8505615578787047829
+    second: aemy_77
+  - first:
+      213: 5253071292095486598
+    second: aemy_78
+  - first:
+      213: -5830350081098182430
+    second: aemy_79
+  - first:
+      213: 1718042149026811235
+    second: aemy_80
+  - first:
+      213: -3068340072398316891
+    second: aemy_81
+  - first:
+      213: -2652205042134117078
+    second: aemy_82
+  - first:
+      213: 2589562907146843233
+    second: aemy_83
+  - first:
+      213: -5240759307938128673
+    second: aemy_84
+  - first:
+      213: 5630510102350412506
+    second: aemy_85
+  - first:
+      213: -8525983567651355478
+    second: aemy_86
+  - first:
+      213: 5227076736595004621
+    second: aemy_87
+  - first:
+      213: -9118848427309216645
+    second: aemy_88
+  - first:
+      213: -4318429345735837252
+    second: aemy_89
+  - first:
+      213: 4181610823364524124
+    second: aemy_90
+  - first:
+      213: 4783144043773993977
+    second: aemy_91
+  - first:
+      213: 7400630427668906044
+    second: aemy_92
+  - first:
+      213: 1472182421530818889
+    second: aemy_93
+  - first:
+      213: 4496334860910087986
+    second: aemy_94
+  - first:
+      213: -9221660134496623388
+    second: aemy_95
+  - first:
+      213: -2535679180029659371
+    second: aemy_96
+  - first:
+      213: -1931132278231960028
+    second: aemy_97
+  - first:
+      213: -157487224243810421
+    second: aemy_98
+  - first:
+      213: 581115482294899860
+    second: aemy_99
+  - first:
+      213: 5353864751829314042
+    second: aemy_100
+  - first:
+      213: -2519925453877241060
+    second: aemy_101
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +337,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,10 +346,10 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
-  spriteExtrude: 1
+  spriteMode: 2
+  spriteExtrude: 0
   spriteMeshType: 1
-  alignment: 0
+  alignment: 1
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -70,9 +376,2187 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: aemy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c41998b0a7bd9409e621f99ec89712
+      internalID: 5539891322913004694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1008
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8cab6a7fea5a741ad8f82f7bbbd4d7
+      internalID: -7164229490801883398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_2
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1008
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb10707b927c21b49a1269afc2a6ef04
+      internalID: 2447900443686236971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_3
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1008
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa59ddf60e71ab4ab79d5596a0df6a6
+      internalID: -3614277958242736027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_4
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1008
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a6d348ebcedf148ba0dc75517ace26
+      internalID: -3420423659892885672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_5
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1008
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c88464529ea587408d263371ef230d0
+      internalID: -6119139769919707388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_6
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1008
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b217627080e5a98489a8977f7994c4fe
+      internalID: 3857102757858008899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_7
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1008
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fab40a1712ba4b4b8e1f2fc87d42418
+      internalID: -4886148865051637863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_8
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1008
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ca202d478860c469f98bca4f6f9423
+      internalID: 1365265648695492742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_9
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 1008
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d891024973eceac44b5fec8c3ca944fe
+      internalID: 8447283961805951557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_10
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1008
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d72637ba6ec1914787b24778d4d825c
+      internalID: -906950755610931136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462eaff174da9fb45aedbb316908bcb9
+      internalID: 3193235406304582816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_12
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 896
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d04b43380b46fb438e4077717c413d6
+      internalID: -6717747787413042608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_13
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 896
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278e016e3a2bf3540a84b3d251594eb4
+      internalID: 4533230647466795833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_14
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 896
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f4fd14caad180429b9e31ef87580ec
+      internalID: 1571188977160854758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_15
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f84e317b12333048899f5f660db4ecf
+      internalID: -439065080448384632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_16
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 896
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3ac58b3449c6745b9e32dc8d7ee69f
+      internalID: -3975790478210935068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_17
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 896
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae9cd9d5bb2ebf4e8a638b2b2a6c6ca
+      internalID: 7784618375140545980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_18
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 896
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5580304f25cae44beb69fa2b525695
+      internalID: -2249478019480244138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_19
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 896
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eae2e21f395ad145adf2ab443d65bd4
+      internalID: 3396942088603181786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_20
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 896
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c036f9538c950d045ba10ee8b6992643
+      internalID: 6129291236045232126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_21
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 896
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131c141606b4b7b4783109017a356777
+      internalID: -3489727020674967262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdd460a4c5838948a648d5d429a648e
+      internalID: -3262599049360999588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 784
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf96a062a203e848a508c6aabd283ae
+      internalID: -8739469588249017465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_24
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 784
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c3bbedbdcbd1943bc4af4ca288e343
+      internalID: -3907067876322876904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_25
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 784
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f58015e9861123478b861b8eaa38f9b
+      internalID: -1285258870378099078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_26
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 784
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f006861ef23df4fbf6661a880e9436
+      internalID: 892067069891827677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_27
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 784
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a059aa09f3f4cae43be255059880b86c
+      internalID: -632603943380771514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_28
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 784
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3318aa1a6db3a824ab7346b579d60f22
+      internalID: -5418538110123683775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_29
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 784
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b22f3babb0865a449220c66a7d6ac95
+      internalID: -3054375711639124770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_30
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 784
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d762b976e286e94d857b7408996d475
+      internalID: 1945848243696532430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_31
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 784
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33243a283d25f3444a9b1c855f3bcb6b
+      internalID: -5132309653082879798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_32
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 784
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808b0a9375443b840ac9d0f8be36f922
+      internalID: 8813135431616455914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe418a9c41c6db439165c80e358e102
+      internalID: -4454082011810222926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_34
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 672
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dada591df39f5945af9e262cfba2ab6
+      internalID: -2702745135710403744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_35
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 672
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e39632ab1f5a154d9f054fa54b69075
+      internalID: 4968147821294391677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_36
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 672
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34478e34f5d3a8b4ab0b47ed3a57780c
+      internalID: 351340049945849556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_37
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 672
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d696d342d846244a91aca0adfec9c5
+      internalID: 1374906539109279142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_38
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 672
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cfd05624d55f54ab969f3abd5341bd
+      internalID: 8307456148569523788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_39
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 672
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e43088f8c604764a84071232b2ff915
+      internalID: -3186068660704864676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_40
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 672
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c593fa9215ce77489ee390f898b6b13
+      internalID: 7683324411006062479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_41
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 672
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae04c579a95341149bc4f1b89099c1c8
+      internalID: -3476778832874907813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_42
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 672
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46c7f7b3aca89341873913bf721eac5
+      internalID: -7610382111187558852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_43
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 672
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d9d497f60e05d49a3961d8f35fa306
+      internalID: -7515675535258484309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0aa58209733b3b429eaaf08bc0a9d44
+      internalID: 4536277556512909473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_45
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 560
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363949c0dbeb56a468a70a9a6bbf843c
+      internalID: 7956912351980901211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_46
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 560
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3778b359be670e5489edf1741ac1d8da
+      internalID: 8136271784290137262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_47
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 560
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c41d0e3ac3eae941bf96f5dd412cb52
+      internalID: -589454936218166293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_48
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 560
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba75c8a7341a204f8f017aad8f92ba8
+      internalID: 5224805799344621065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_49
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 560
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f022945f0a542f4c93af69d66132a60
+      internalID: 997625584333696890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_50
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 560
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0570fd6d883c2d54aaba5791c40099d5
+      internalID: -6109120534202201488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_51
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 560
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f78cc6b6332dd4a8599d772fb2d19a
+      internalID: -2275636875994483086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_52
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 560
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acff28ae04066ea448b3e11644a367c7
+      internalID: -5679283118148407460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_53
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 560
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae44a1f1411d40145b90cda5f2b9b7df
+      internalID: -3271340034113891094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_54
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 560
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5216810468e4a0343a38c025a4fed4cc
+      internalID: -1065595840675745498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7aec46376b1bb846b65577320d71508
+      internalID: 2645055790842730663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_56
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15fa3c7577101a41b578140b30c12e7
+      internalID: -7349664270694585316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_57
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd4731b2b99e6244baa6f19e269bdc0
+      internalID: 8679679620602323754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_58
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 448
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dff1314bdf7b744e9d0f5e34bbf6169
+      internalID: -3716675257767213091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_59
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 448
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8d66d85c04a0648968c5919da2175e
+      internalID: -543659249478646734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_60
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 448
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4852fd376b2d44e8ad31acb51e1018
+      internalID: 1192124717742609404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_61
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 448
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fed1ceca5e5dd94687062e8235562b7
+      internalID: -447972021597050799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_62
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 448
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab5f1970d4e8564d8b00feb649b2aeb
+      internalID: -6532616769673563447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_63
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 448
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24fee4278b074e4fa0ef72316e74efb
+      internalID: 4514328521319026021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_64
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 448
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c43a312e6895794c8fcd6a1e8052b6f
+      internalID: -1968201293247095203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_65
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 448
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae0a6b4351e4804d9690d9d29396ad4
+      internalID: -7659968182816868223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a485b78e45484e4aac4be99915e2e3c
+      internalID: 1159165399932373716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_67
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 336
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16c26a0dac1989478a8600dffadbdb2
+      internalID: -7978012771888286314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_68
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 336
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a12d147976a514ea11b5b632ca8192
+      internalID: -248768370077679514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_69
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 336
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc04468c5f3cb14d8db876f5a564c21
+      internalID: 3088587761236893942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_70
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 336
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19f8cfacbc059f44bf19443a18b651d
+      internalID: 7964469223534117185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_71
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 336
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56260b10fc8fe94590c6ac36acdd431
+      internalID: 7167040438153926504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_72
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 336
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60543674686cbdd4087526e450a7589e
+      internalID: 5984709792621302490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_73
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 336
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e29e57caf0bc5840a424dd0d446b7f5
+      internalID: 4827369263228511306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_74
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 336
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d8418e102c9734ab085f8bcf8756a4
+      internalID: -7731818213643083785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_75
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 336
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6cd9e6e54b3544a99b01920598cc0c
+      internalID: 649222577051721159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_76
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 336
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6eef56a194c6a645b9cc63fbfd45208
+      internalID: 8416437082652222650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd27ac5fe1894cf4faefd59d654fedca
+      internalID: -8505615578787047829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_78
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6284a8b7ce61fba49af1f0f915bd9150
+      internalID: 5253071292095486598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_79
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 224
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce30d67ebd9d46b418f939447f09a385
+      internalID: -5830350081098182430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_80
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 224
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc382af051a6a0147be47b946f5a3fbd
+      internalID: 1718042149026811235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_81
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 224
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a7804fa29c3404488f0fa4749d5708
+      internalID: -3068340072398316891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_82
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 224
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf8416b221e5f64a89766d913a22af7
+      internalID: -2652205042134117078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_83
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 224
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c9a0ffea2f9384db6242c9014b6515
+      internalID: 2589562907146843233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_84
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 224
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdf74841a0da01418d2f94bad946c3b
+      internalID: -5240759307938128673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_85
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 224
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6488117f1335440a0cfa753e8b8942
+      internalID: 5630510102350412506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_86
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 224
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912572088c34b9843a83a612f8c65a61
+      internalID: -8525983567651355478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_87
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 224
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7da27febe7b3e4287a84cf2cd5808f
+      internalID: 5227076736595004621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6c88c85fbd59d40a8d3c321b191fc7
+      internalID: -9118848427309216645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_89
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 112
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b28c935210ab0489511f240ef55aaf
+      internalID: -4318429345735837252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_90
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 112
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387d74453bb8fe74c85a28a75b8e76bb
+      internalID: 4181610823364524124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_91
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 112
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b0bd7492c752f4987ce2aab6b6b337
+      internalID: 4783144043773993977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_92
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 112
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d134cd47d6d28f6478706bc68b053778
+      internalID: 7400630427668906044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_93
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 112
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d56f15fa9d7d414f8ff410be1aba0eb
+      internalID: 1472182421530818889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_94
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 112
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5776a55ac48bae040900494f843920e3
+      internalID: 4496334860910087986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_95
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 112
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520b4c397c32a5a408a5ac2a685b98e2
+      internalID: -9221660134496623388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_96
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 112
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bef0b35dbd145b4fa163ca852d9a75d
+      internalID: -2535679180029659371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_97
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 112
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a331535d5f16f40835f0d7c09d7ca4
+      internalID: -1931132278231960028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_98
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 112
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f241e0486518b4ea3ce65e05758fc1
+      internalID: -157487224243810421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28eeb8a227a72cb48ae9ca8c15d871f0
+      internalID: 581115482294899860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_100
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5b7cfd795e1a544922fc75aef3ff0a
+      internalID: 5353864751829314042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aemy_101
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 352
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836170d4d76064d47af295a8e650cb94
+      internalID: -2519925453877241060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
