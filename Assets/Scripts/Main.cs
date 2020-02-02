@@ -5,10 +5,12 @@ using Cradle;
 using System.Linq;
 using System;
 using UnityEngine.UI;
+using TMPro;
 
 public class Main : MonoBehaviour
 {
     public Story story;
+    public TextMeshPro ScreenText;
 
     // Start is called before the first frame update
     string currStoryText = "";
@@ -30,15 +32,23 @@ public class Main : MonoBehaviour
     {
         string tType = obj.GetType().ToString();
 
-        switch (tType)
+        if (tType == "Cradle.StoryText" || tType == "Cradle.StoryLink" || tType == "Cradle.LineBreak")
         {
-            case "Cradle.StoryText":
-                currStoryText = obj.Text;
-                break;
-            case "Cradle.StoryLink":
-                currStoryLink.Add(obj.Text);
-
-                break;
+            if (tType == "Cradle.LineBreak")
+                currStoryText += "\n";
+            else
+                currStoryText += obj.Text;
         }
+        //switch (tType)
+        //{
+        //    case "Cradle.StoryText":
+        //        currStoryText += obj.Text;
+        //        break;
+        //    case "Cradle.StoryLink":
+        //        currStoryLink.Add(obj.Text);
+        //        break;
+        //}
+
+        ScreenText.SetText(currStoryText);
     }    
 }
