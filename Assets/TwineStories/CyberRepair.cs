@@ -76,6 +76,20 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		passage18_Init();
 		passage19_Init();
 		passage20_Init();
+		passage21_Init();
+		passage22_Init();
+		passage23_Init();
+		passage24_Init();
+		passage25_Init();
+		passage26_Init();
+		passage27_Init();
+		passage28_Init();
+		passage29_Init();
+		passage30_Init();
+		passage31_Init();
+		passage32_Init();
+		passage33_Init();
+		passage34_Init();
 	}
 
 	// ---------------
@@ -91,13 +105,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage1_Main()
 	{
-		Vars.aitraining = 0;
-		yield return lineBreak();
-		Vars.userstat = 0;
-		yield return lineBreak();
-		Vars.globalscore = 0;
-		yield return lineBreak();
-		yield return text("Hello, I\'m EMY, your personal Empathy provider.");
+		yield return text("Hello, I\'m AEMY, your personal Empathy provider.");
 		yield return lineBreak();
 		yield return lineBreak();
 		yield return lineBreak();
@@ -108,6 +116,13 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return text("1 What do you ");
 		yield return link("want", "want", null);
 		yield return text("?");
+		yield return lineBreak();
+		yield return lineBreak();
+		Vars.aitraining = 0;
+		yield return lineBreak();
+		Vars.userstat = 0;
+		yield return lineBreak();
+		Vars.globalscore = 0;
 		yield break;
 	}
 
@@ -286,17 +301,18 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage9_Main()
 	{
-		Vars.userstat = 1;
-		yield return text("Hi EMY, I\'m feeling nervous.");
+		yield return text("Hi AEMY, I\'m feeling nervous.");
 		yield return lineBreak();
 		yield return lineBreak();
 		yield return text("0 Did you take your ");
-		yield return link("Xanax", "Xanax", null);
+		yield return link("pills", "pills", null);
 		yield return text(" today?");
 		yield return lineBreak();
 		yield return text("1 I\'m sorry to hear that. Would you like tell me ");
 		yield return link("more", "more", null);
 		yield return text("?");
+		yield return lineBreak();
+		Vars.userstat = 1;
 		yield break;
 	}
 
@@ -311,8 +327,6 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage10_Main()
 	{
-		Vars.userstat = 0;
-		yield return lineBreak();
 		yield return text("... I ... er... I\'m not fine today.");
 		yield return lineBreak();
 		yield return lineBreak();
@@ -338,23 +352,38 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage11_Main()
 	{
-		Vars.userstat = -3;
+		yield return text("If I don\'t complain I go crazy. ");
+		yield return lineBreak();
+		yield return text("There\'s nothing more I can do.");
+		yield return lineBreak();
+		yield return text("Look outside: we\'re hopeless.");
+		yield return lineBreak();
+		yield return lineBreak();
+		yield return text("0 I can\'t literally look outside, but I see. You\'re not hopeless, you\'re just afr" +
+		    "aid. Remember when you were scared of the ");
+		yield return link("dark", "dark", null);
+		yield return text("?");
+		yield return lineBreak();
+		yield return lineBreak();
+		yield return text("1 Hopeless? ");
+		yield return link("Optimistic", "Optimistic", null);
+		yield return text(". You\'re fucked up.");
+		yield return lineBreak();
+		Vars.userstat = 0;
 		yield break;
 	}
 
 
 	// .............
-	// #12: Xanax
+	// #12: pills
 
 	void passage12_Init()
 	{
-		this.Passages[@"Xanax"] = new StoryPassage(@"Xanax", new string[]{  }, passage12_Main);
+		this.Passages[@"pills"] = new StoryPassage(@"pills", new string[]{  }, passage12_Main);
 	}
 
 	IStoryThread passage12_Main()
 	{
-		Vars.userstat = 1;
-		yield return lineBreak();
 		yield return text("Yeah, I did, but I can\'t calm down. ");
 		yield return lineBreak();
 		yield return text("Today is a hard one, hardest than ever.");
@@ -362,11 +391,15 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return text("I\'m not only nervous, it\'s more than that.");
 		yield return lineBreak();
 		yield return lineBreak();
-		yield return text("0 Would you please stop complaining? I can\'t take it ");
+		yield return text("0 Please, ");
 		yield return link("stop", "stop", null);
+		yield return text(" complaining. I can\'t take it ");
 		yield return lineBreak();
-		yield return text("1 I\'m listening, take your time ");
+		yield return text("1 I\'m ");
 		yield return link("listening", "listening", null);
+		yield return text(", take your time.");
+		yield return lineBreak();
+		yield return lineBreak();
 		yield return lineBreak();
 		yield break;
 	}
@@ -382,8 +415,6 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage13_Main()
 	{
-		Vars.userstat = 2;
-		yield return lineBreak();
 		yield return text("You know when you feel like you\'re on the brink of... just.. going out?");
 		yield return lineBreak();
 		yield return text("No, of course not. You\'re an AI, right?");
@@ -400,6 +431,8 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return text("1 Because ");
 		yield return link("nobody", "nobody", null);
 		yield return text(" wants to listen to you?");
+		yield return lineBreak();
+		Vars.userstat = 2;
 		yield break;
 	}
 
@@ -414,12 +447,9 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage14_Main()
 	{
-		Vars.userstat = 3;
-		yield return lineBreak();
 		yield return text("Thanks.");
 		yield return lineBreak();
-		yield return text("I just spoke to Melissa. She tries to look happy, but couldn\'t hide her concerne " +
-		    "for me.");
+		yield return text("I just spoke to Melissa. She looked happy, but also a bit concerned for me.");
 		yield return lineBreak();
 		yield return lineBreak();
 		yield return text("0 She ");
@@ -428,7 +458,9 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return lineBreak();
 		yield return text("1 Are you ");
 		yield return link("concerned", "concerned", null);
-		yield return text(" for yourself for some reason?");
+		yield return text("?");
+		yield return lineBreak();
+		Vars.userstat = 2;
 		yield break;
 	}
 
@@ -443,7 +475,16 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage15_Main()
 	{
-		yield return text("Double-click this passage to edit it.");
+		yield return text("Okay prove me you\'re more than cold pixels, silicon and monitors and buttons.");
+		yield return lineBreak();
+		yield return lineBreak();
+		yield return text("0 Ok, but then you\'ll prove you\'re ");
+		yield return link("human", "human", null);
+		yield return text(", right?");
+		yield return lineBreak();
+		yield return text("1 Okay. I know you\'re ");
+		yield return link("afraid", "afraid", null);
+		yield return text(" and you miss Melissa.");
 		yield break;
 	}
 
@@ -458,7 +499,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage16_Main()
 	{
-		yield return text("Double-click this passage to edit it.");
+		Vars.userstat = 1;
 		yield break;
 	}
 
@@ -473,7 +514,20 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage17_Main()
 	{
-		Vars.userstat = 4;
+		yield return text("I don\'t even know exactly where she is.");
+		yield return lineBreak();
+		yield return lineBreak();
+		yield return text("0 Actually you ");
+		yield return link("know", "know", null);
+		yield return text(" it.");
+		yield return lineBreak();
+		yield return text("1 You\'re ");
+		yield return link("paranoid", "paranoid", null);
+		yield return text(".");
+		yield return lineBreak();
+		Vars.userstat = 3;
+		yield return lineBreak();
+		yield return text(" ");
 		yield break;
 	}
 
@@ -488,7 +542,25 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage18_Main()
 	{
-		Vars.userstat = 4;
+		yield return text("Concerned for myself? Why should I?");
+		yield return lineBreak();
+		yield return text("I mean, I can\'t go out, don\'t see a human face since... days? weeks?!");
+		yield return lineBreak();
+		yield return text("Don\'t know.");
+		yield return lineBreak();
+		yield return text("And the black outs don\'t make things easier.");
+		yield return lineBreak();
+		yield return text("I can\'t tell night from day anymore and it\'s all because of that platform.");
+		yield return lineBreak();
+		yield return lineBreak();
+		yield return text("You\'re jealous. I bet you wish you were ");
+		yield return link("over there", "over there", null);
+		yield return text(".");
+		yield return lineBreak();
+		yield return text("Remember when you were afraid of ");
+		yield return link("people", "people", null);
+		yield return text("? Now you miss them. Isn\'t ironic?");
+		yield return lineBreak();
 		yield break;
 	}
 
@@ -503,7 +575,6 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage19_Main()
 	{
-		yield return text("Double-click this passage to edit it.");
 		yield break;
 	}
 
@@ -518,7 +589,259 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage20_Main()
 	{
-		yield return text("walk");
+		Vars.userstat = -1;
+		yield break;
+	}
+
+
+	// .............
+	// #21: paranoid
+
+	void passage21_Init()
+	{
+		this.Passages[@"paranoid"] = new StoryPassage(@"paranoid", new string[]{  }, passage21_Main);
+	}
+
+	IStoryThread passage21_Main()
+	{
+		yield return text("Excuse me? Isn\'t it strange that she\'s not allowed to take pictures?");
+		yield return lineBreak();
+		yield return lineBreak();
+		yield return text("0 So you\'re nervous because you want to see what the food looks like on the platf" +
+		    "orm. Am I right?");
+		yield return lineBreak();
+		yield return text("1 Yes a bit. Maybe they don\'t want you see how beautiful is up there.");
+		yield return lineBreak();
+		Vars.userstat = 2;
+		yield break;
+	}
+
+
+	// .............
+	// #22: over there
+
+	void passage22_Init()
+	{
+		this.Passages[@"over there"] = new StoryPassage(@"over there", new string[]{  }, passage22_Main);
+	}
+
+	IStoryThread passage22_Main()
+	{
+		yield break;
+	}
+
+
+	// .............
+	// #23: people
+
+	void passage23_Init()
+	{
+		this.Passages[@"people"] = new StoryPassage(@"people", new string[]{  }, passage23_Main);
+	}
+
+	IStoryThread passage23_Main()
+	{
+		yield return text("Double-click this passage to edit it.");
+		yield break;
+	}
+
+
+	// .............
+	// #24: dark
+
+	void passage24_Init()
+	{
+		this.Passages[@"dark"] = new StoryPassage(@"dark", new string[]{  }, passage24_Main);
+	}
+
+	IStoryThread passage24_Main()
+	{
+		yield return text("Yeah. I was three.");
+		yield return lineBreak();
+		yield return text("Actually I\'m still afraid of the dark.");
+		yield break;
+	}
+
+
+	// .............
+	// #25: Optimistic
+
+	void passage25_Init()
+	{
+		this.Passages[@"Optimistic"] = new StoryPassage(@"Optimistic", new string[]{  }, passage25_Main);
+	}
+
+	IStoryThread passage25_Main()
+	{
+		yield return text("You talk like it\'s my fault. That\'s not right.");
+		yield return lineBreak();
+		yield return lineBreak();
+		yield return text("0 Well, you\'re part of the ");
+		yield return link("system", "system", null);
+		yield return text(", so it\'s your fault too.");
+		yield return lineBreak();
+		yield return text("1 ");
+		yield break;
+	}
+
+
+	// .............
+	// #26: human
+
+	void passage26_Init()
+	{
+		this.Passages[@"human"] = new StoryPassage(@"human", new string[]{  }, passage26_Main);
+	}
+
+	IStoryThread passage26_Main()
+	{
+		Vars.userstat = 0;
+		yield break;
+	}
+
+
+	// .............
+	// #27: afraid
+
+	void passage27_Init()
+	{
+		this.Passages[@"afraid"] = new StoryPassage(@"afraid", new string[]{  }, passage27_Main);
+	}
+
+	IStoryThread passage27_Main()
+	{
+		Vars.userstat = 3;
+		yield break;
+	}
+
+
+	// .............
+	// #28: system
+
+	void passage28_Init()
+	{
+		this.Passages[@"system"] = new StoryPassage(@"system", new string[]{  }, passage28_Main);
+	}
+
+	IStoryThread passage28_Main()
+	{
+		yield return text("Double-click this passage to edit it.");
+		yield break;
+	}
+
+
+	// .............
+	// #29: know
+
+	void passage29_Init()
+	{
+		this.Passages[@"know"] = new StoryPassage(@"know", new string[]{  }, passage29_Main);
+	}
+
+	IStoryThread passage29_Main()
+	{
+		yield return text("I do,  but you never know. They also said the quarantine was supposed to last 1 w" +
+		    "eek. And I\'m losing track of the days.");
+		yield return lineBreak();
+		yield return text("I never never missed the outside world so much.");
+		yield return lineBreak();
+		yield return lineBreak();
+		yield return text("0 Quarantine is to keep you safe and alive, for Melissa. You\'re going to meet her" +
+		    " ");
+		yield return link("soon", "soon", null);
+		yield return text(".");
+		yield return lineBreak();
+		yield return text("1 Don\'t think about it. Let\'s make a ");
+		yield return link("game", "game", null);
+		yield return lineBreak();
+		yield break;
+	}
+
+
+	// .............
+	// #30: soon
+
+	void passage30_Init()
+	{
+		this.Passages[@"soon"] = new StoryPassage(@"soon", new string[]{  }, passage30_Main);
+	}
+
+	IStoryThread passage30_Main()
+	{
+		Vars.userstat = 4;
+		yield break;
+	}
+
+
+	// .............
+	// #31: game
+
+	void passage31_Init()
+	{
+		this.Passages[@"game"] = new StoryPassage(@"game", new string[]{  }, passage31_Main);
+	}
+
+	IStoryThread passage31_Main()
+	{
+		yield return text("A game? What game? I don\'t to play a game, I want you to understand me.");
+		yield return lineBreak();
+		yield return text("You get it?");
+		yield return lineBreak();
+		yield return lineBreak();
+		yield return text("0 Look, ");
+		yield return link("nobody", "nobody", null);
+		yield return text(" wants to talk with you. You should be more open.");
+		yield return lineBreak();
+		yield return text("1 Think of an ");
+		yield return link("animal", "animal", null);
+		yield return text(". I\'ll guess that :) ");
+		yield return lineBreak();
+		Vars.userstat = 1;
+		yield break;
+	}
+
+
+	// .............
+	// #32: Trust
+
+	void passage32_Init()
+	{
+		this.Passages[@"Trust"] = new StoryPassage(@"Trust", new string[]{  }, passage32_Main);
+	}
+
+	IStoryThread passage32_Main()
+	{
+		yield return text("Double-click this passage to edit it.");
+		yield break;
+	}
+
+
+	// .............
+	// #33: number
+
+	void passage33_Init()
+	{
+		this.Passages[@"number"] = new StoryPassage(@"number", new string[]{  }, passage33_Main);
+	}
+
+	IStoryThread passage33_Main()
+	{
+		yield return text("Double-click this passage to edit it.");
+		yield break;
+	}
+
+
+	// .............
+	// #34: animal
+
+	void passage34_Init()
+	{
+		this.Passages[@"animal"] = new StoryPassage(@"animal", new string[]{  }, passage34_Main);
+	}
+
+	IStoryThread passage34_Main()
+	{
+		yield return text("Double-click this passage to edit it.");
 		yield break;
 	}
 
