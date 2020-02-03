@@ -8,13 +8,17 @@ public class ClickManager : MonoBehaviour
     public Story story;
     UnityEngine.UI.Button button;
     public int ButtonIndex;
-    public float[] userbarValues = new float[30];
+
 
     // Start is called before the first frame update
     void Start()
     {
         button = this.GetComponent<UnityEngine.UI.Button>();
-        button.onClick.AddListener(ClickLink);
+        try
+        {
+            button.onClick.AddListener(ClickLink);
+        }
+        catch { }
     }
 
     // Update is called once per frame

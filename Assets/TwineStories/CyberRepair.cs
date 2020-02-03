@@ -415,13 +415,12 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage13_Main()
 	{
-		yield return text("You know when you feel like you\'re on the brink of... just.. going out?");
-		yield return lineBreak();
-		yield return text("No, of course not. You\'re an AI, right?");
+		yield return text("You know when you\'re on the brink of just going out? No, of course not. You\'re an" +
+		    " AI, right?");
 		yield return lineBreak();
 		yield return text("How could you understand the pain of being human?");
 		yield return lineBreak();
-		yield return text("I don\'t even know why we\'re talking to you.");
+		yield return text("I don\'t know why we\'re talking to you.");
 		yield return lineBreak();
 		yield return lineBreak();
 		yield return text("0 I am an ");
@@ -589,7 +588,8 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage20_Main()
 	{
-		Vars.userstat = -1;
+		yield return lineBreak();
+		Vars.userstat = 0;
 		yield break;
 	}
 
