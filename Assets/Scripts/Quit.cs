@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using Cradle;
 
 public class Quit : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Quit : MonoBehaviour
     public GameObject quitText;
     public GameObject myButtonY;
     public GameObject myButtonN;
+    public Story story;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,22 +21,32 @@ public class Quit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("escape"))
+        if (Input.GetKeyDown("escape"))
         {
             aemyText.SetActive(false);
             quitText.SetActive(true);
             myButtonN.GetComponent<Image>().color = Color.white;
             myButtonY.GetComponent<Image>().color = Color.white;
         }
-        if (Input.GetKey("y"))
+        if (Input.GetKeyDown("y"))
             {
             QuitGame();
         }
-        if (Input.GetKey("n"))
+        if (Input.GetKeyDown("n"))
         {
             KeepPlaying();
         }
+        if (Input.GetKeyDown("0"))
+        {
+            story.DoLink(0);
+        }
+        if (Input.GetKeyDown("1"))
+        {
+            story.DoLink(1);
+        }
+
     }
+
 
     public void QuitGame()
     {

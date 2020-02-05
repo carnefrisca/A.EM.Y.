@@ -197,7 +197,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: 5539891322913004694, guid: 21982f8c969f5ec46a18600805045ad1,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.43137255}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.52156866}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -215,8 +215,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9460526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 929.423, y: 580.779, z: 0}
-  m_LocalScale: {x: 0.9040499, y: 0.9040499, z: 0.9}
+  m_LocalPosition: {x: 929.432, y: 580.8, z: 0}
+  m_LocalScale: {x: 0.9040499, y: 0.9214786, z: 0.9}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -1805,6 +1805,7 @@ MonoBehaviour:
   quitText: {fileID: 1191393464}
   myButtonY: {fileID: 2024356417}
   myButtonN: {fileID: 344391916}
+  story: {fileID: 1148847306789820}
 --- !u!4 &1198675758
 Transform:
   m_ObjectHideFlags: 0

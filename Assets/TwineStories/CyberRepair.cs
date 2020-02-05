@@ -88,8 +88,6 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		passage30_Init();
 		passage31_Init();
 		passage32_Init();
-		passage33_Init();
-		passage34_Init();
 	}
 
 	// ---------------
@@ -296,7 +294,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage9_Init()
 	{
-		this.Passages[@"feel"] = new StoryPassage(@"feel", new string[]{  }, passage9_Main);
+		this.Passages[@"feel"] = new StoryPassage(@"feel", new string[]{ "plus", }, passage9_Main);
 	}
 
 	IStoryThread passage9_Main()
@@ -312,7 +310,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return link("more", "more", null);
 		yield return text("?");
 		yield return lineBreak();
-		Vars.userstat = 1;
+		Vars.userstat = Vars.userstat+1;
 		yield break;
 	}
 
@@ -347,7 +345,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage11_Init()
 	{
-		this.Passages[@"stop"] = new StoryPassage(@"stop", new string[]{  }, passage11_Main);
+		this.Passages[@"stop"] = new StoryPassage(@"stop", new string[]{ "minus", }, passage11_Main);
 	}
 
 	IStoryThread passage11_Main()
@@ -364,12 +362,11 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return link("dark", "dark", null);
 		yield return text("?");
 		yield return lineBreak();
-		yield return lineBreak();
 		yield return text("1 Hopeless? ");
 		yield return link("Optimistic", "Optimistic", null);
 		yield return text(". You\'re fucked up.");
 		yield return lineBreak();
-		Vars.userstat = 0;
+		Vars.userstat = Vars.userstat-1;
 		yield break;
 	}
 
@@ -431,7 +428,6 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return link("nobody", "nobody", null);
 		yield return text(" wants to listen to you?");
 		yield return lineBreak();
-		Vars.userstat = 2;
 		yield break;
 	}
 
@@ -441,7 +437,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage14_Init()
 	{
-		this.Passages[@"listening"] = new StoryPassage(@"listening", new string[]{  }, passage14_Main);
+		this.Passages[@"listening"] = new StoryPassage(@"listening", new string[]{ "plus", }, passage14_Main);
 	}
 
 	IStoryThread passage14_Main()
@@ -459,7 +455,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return link("concerned", "concerned", null);
 		yield return text("?");
 		yield return lineBreak();
-		Vars.userstat = 2;
+		Vars.userstat = Vars.userstat+2;
 		yield break;
 	}
 
@@ -469,7 +465,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage15_Init()
 	{
-		this.Passages[@"AI"] = new StoryPassage(@"AI", new string[]{  }, passage15_Main);
+		this.Passages[@"AI"] = new StoryPassage(@"AI", new string[]{ "plus", }, passage15_Main);
 	}
 
 	IStoryThread passage15_Main()
@@ -484,6 +480,8 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return text("1 Okay. I know you\'re ");
 		yield return link("afraid", "afraid", null);
 		yield return text(" and you miss Melissa.");
+		yield return lineBreak();
+		Vars.userstat = Vars.userstat+1;
 		yield break;
 	}
 
@@ -493,12 +491,12 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage16_Init()
 	{
-		this.Passages[@"nobody"] = new StoryPassage(@"nobody", new string[]{  }, passage16_Main);
+		this.Passages[@"nobody"] = new StoryPassage(@"nobody", new string[]{ "minus", }, passage16_Main);
 	}
 
 	IStoryThread passage16_Main()
 	{
-		Vars.userstat = 1;
+		Vars.userstat = Vars.userstat-1;
 		yield break;
 	}
 
@@ -508,7 +506,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage17_Init()
 	{
-		this.Passages[@"loves"] = new StoryPassage(@"loves", new string[]{  }, passage17_Main);
+		this.Passages[@"loves"] = new StoryPassage(@"loves", new string[]{ "plus", }, passage17_Main);
 	}
 
 	IStoryThread passage17_Main()
@@ -524,7 +522,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return link("paranoid", "paranoid", null);
 		yield return text(".");
 		yield return lineBreak();
-		Vars.userstat = 3;
+		Vars.userstat = Vars.userstat+1;
 		yield return lineBreak();
 		yield return text(" ");
 		yield break;
@@ -588,8 +586,6 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage20_Main()
 	{
-		yield return lineBreak();
-		Vars.userstat = 0;
 		yield break;
 	}
 
@@ -599,7 +595,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage21_Init()
 	{
-		this.Passages[@"paranoid"] = new StoryPassage(@"paranoid", new string[]{  }, passage21_Main);
+		this.Passages[@"paranoid"] = new StoryPassage(@"paranoid", new string[]{ "minus", }, passage21_Main);
 	}
 
 	IStoryThread passage21_Main()
@@ -612,7 +608,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return lineBreak();
 		yield return text("1 Yes a bit. Maybe they don\'t want you see how beautiful is up there.");
 		yield return lineBreak();
-		Vars.userstat = 2;
+		Vars.userstat = Vars.userstat-1;
 		yield break;
 	}
 
@@ -622,11 +618,12 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage22_Init()
 	{
-		this.Passages[@"over there"] = new StoryPassage(@"over there", new string[]{  }, passage22_Main);
+		this.Passages[@"over there"] = new StoryPassage(@"over there", new string[]{ "minus", }, passage22_Main);
 	}
 
 	IStoryThread passage22_Main()
 	{
+		Vars.userstat = Vars.userstat-1;
 		yield break;
 	}
 
@@ -651,7 +648,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage24_Init()
 	{
-		this.Passages[@"dark"] = new StoryPassage(@"dark", new string[]{  }, passage24_Main);
+		this.Passages[@"dark"] = new StoryPassage(@"dark", new string[]{ "plus", }, passage24_Main);
 	}
 
 	IStoryThread passage24_Main()
@@ -659,6 +656,8 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return text("Yeah. I was three.");
 		yield return lineBreak();
 		yield return text("Actually I\'m still afraid of the dark.");
+		yield return lineBreak();
+		Vars.userstat = Vars.userstat+1;
 		yield break;
 	}
 
@@ -668,7 +667,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage25_Init()
 	{
-		this.Passages[@"Optimistic"] = new StoryPassage(@"Optimistic", new string[]{  }, passage25_Main);
+		this.Passages[@"Optimistic"] = new StoryPassage(@"Optimistic", new string[]{ "minus", }, passage25_Main);
 	}
 
 	IStoryThread passage25_Main()
@@ -681,6 +680,8 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return text(", so it\'s your fault too.");
 		yield return lineBreak();
 		yield return text("1 ");
+		yield return lineBreak();
+		Vars.userstat = Vars.userstat-1;
 		yield break;
 	}
 
@@ -690,12 +691,12 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage26_Init()
 	{
-		this.Passages[@"human"] = new StoryPassage(@"human", new string[]{  }, passage26_Main);
+		this.Passages[@"human"] = new StoryPassage(@"human", new string[]{ "plus", }, passage26_Main);
 	}
 
 	IStoryThread passage26_Main()
 	{
-		Vars.userstat = 0;
+		Vars.userstat = Vars.userstat+1;
 		yield break;
 	}
 
@@ -710,7 +711,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	IStoryThread passage27_Main()
 	{
-		Vars.userstat = 3;
+		Vars.userstat = Vars.userstat+1;
 		yield break;
 	}
 
@@ -735,7 +736,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage29_Init()
 	{
-		this.Passages[@"know"] = new StoryPassage(@"know", new string[]{  }, passage29_Main);
+		this.Passages[@"know"] = new StoryPassage(@"know", new string[]{ "plus", }, passage29_Main);
 	}
 
 	IStoryThread passage29_Main()
@@ -754,6 +755,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return text("1 Don\'t think about it. Let\'s make a ");
 		yield return link("game", "game", null);
 		yield return lineBreak();
+		Vars.userstat = Vars.userstat+1;
 		yield break;
 	}
 
@@ -763,12 +765,12 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage30_Init()
 	{
-		this.Passages[@"soon"] = new StoryPassage(@"soon", new string[]{  }, passage30_Main);
+		this.Passages[@"soon"] = new StoryPassage(@"soon", new string[]{ "plus", }, passage30_Main);
 	}
 
 	IStoryThread passage30_Main()
 	{
-		Vars.userstat = 4;
+		Vars.userstat = Vars.userstat+1;
 		yield break;
 	}
 
@@ -778,7 +780,7 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 
 	void passage31_Init()
 	{
-		this.Passages[@"game"] = new StoryPassage(@"game", new string[]{  }, passage31_Main);
+		this.Passages[@"game"] = new StoryPassage(@"game", new string[]{ "minus", }, passage31_Main);
 	}
 
 	IStoryThread passage31_Main()
@@ -796,50 +798,20 @@ public partial class @CyberRepair: Cradle.StoryFormats.Harlowe.HarloweStory
 		yield return link("animal", "animal", null);
 		yield return text(". I\'ll guess that :) ");
 		yield return lineBreak();
-		Vars.userstat = 1;
+		Vars.userstat = Vars.userstat-1;
 		yield break;
 	}
 
 
 	// .............
-	// #32: Trust
+	// #32: animal
 
 	void passage32_Init()
 	{
-		this.Passages[@"Trust"] = new StoryPassage(@"Trust", new string[]{  }, passage32_Main);
+		this.Passages[@"animal"] = new StoryPassage(@"animal", new string[]{  }, passage32_Main);
 	}
 
 	IStoryThread passage32_Main()
-	{
-		yield return text("Double-click this passage to edit it.");
-		yield break;
-	}
-
-
-	// .............
-	// #33: number
-
-	void passage33_Init()
-	{
-		this.Passages[@"number"] = new StoryPassage(@"number", new string[]{  }, passage33_Main);
-	}
-
-	IStoryThread passage33_Main()
-	{
-		yield return text("Double-click this passage to edit it.");
-		yield break;
-	}
-
-
-	// .............
-	// #34: animal
-
-	void passage34_Init()
-	{
-		this.Passages[@"animal"] = new StoryPassage(@"animal", new string[]{  }, passage34_Main);
-	}
-
-	IStoryThread passage34_Main()
 	{
 		yield return text("Double-click this passage to edit it.");
 		yield break;

@@ -24,7 +24,7 @@ public class ClickManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void ClickLink()
